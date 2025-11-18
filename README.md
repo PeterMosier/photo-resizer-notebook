@@ -6,7 +6,7 @@ This is to prepare pics to be uploaded to https://untamedframes.ca
 Github can render the Notebook, **but not run it**.
 
 ### Run Option 1: Google Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PeterMosier/photo-resizer-notebook/blob/main/your_notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PeterMosier/photo-resizer-notebook/blob/main/ImageResizer.ipynb.ipynb)
 
 ### Run Option 2: Binder (WIP)
 1. Go to [https://mybinder.org](https://mybinder.org)
@@ -15,4 +15,6 @@ Github can render the Notebook, **but not run it**.
    > pillow
    > tqdm
    > exif
-4. Click **Launch** and copy the badge code to here in this readme 
+4. Click **Launch** and copy the badge code to here in this readme
+
+5. https://github.com/PeterMosier/photo-resizer-notebook/blob/main/ImageResizer.ipynb
