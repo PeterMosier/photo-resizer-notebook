@@ -1,9 +1,17 @@
-# Photo Resizer
-Quickly resize a directory of JPGS to a max size of 600px (in either dimension); add copyright text in top left and bottom right corners, and save output as .WEBP.
+# Photo Resizer JupyterLab Notebook
 
-This is to prepare pics to be uploaded to https://untamedframes.ca
+⭐ Note: Github can render/display the Notebook, **but not run it**. Execution happens in Google Colab, and the code has been optimzed to run in Google Colab, decentralized, hence the requirement to upload photos and download results. Early version of this notebook ran on a local machine, and did not require upload/download. The newer versions can be run in the Google Colab cloud from anywhere.
 
-Github can render the Notebook, **but not run it**.
+## This JupyterLab Notebook does the following
+
+1. Request the location of the local folder which contains the photos to be processed; these photos are uploaded to Colab
+2. One at a time: resize the uploaded file(s) to a **max** size of **1024px wide by 768px** tall
+3. Add **copyright text** (hard coded) in top left and bottom right corners of the pic
+4. Create **sidecar file**: Extract **EXIF** metadata, if present, and save as a **JSON** file in the **output** directory using the same filename as the photo
+5. Save resized photo as .WEBP file (Note: .WEBP format cannot store EXIF metadata) in the **output** directory
+6. **ZIP** the files in the **output** directory (.WEBP and .JSON) and dowload the zip file to local machine
+
+This is to prepare pics to be uploaded to [UntamedFrames.ca](https://untamedframes.ca)
 
 ### Run Option 1: Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PeterMosier/photo-resizer-notebook/blob/main/ImageResizer.ipynb)
