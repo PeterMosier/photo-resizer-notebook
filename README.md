@@ -16,7 +16,7 @@ This is to prepare pics to be uploaded to [UntamedFrames.ca](https://untamedfram
 ### Run Option 1: Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PeterMosier/photo-resizer-notebook/blob/main/ImageResizer.ipynb)
 
-### Run Option 2: Binder (WIP)
+### Run Option 2: Binder (not used)
 1. Go to [https://mybinder.org](https://mybinder.org)
 2. Enter the URL of this repo [https://github.com/PeterMosier/photo-resizer-notebook/](https://github.com/PeterMosier/photo-resizer-notebook/)
 3. (Optional) Add a requirements.txt with
