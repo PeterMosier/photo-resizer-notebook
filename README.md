@@ -7,11 +7,11 @@
 1. Request the location of the local folder which contains the photos to be processed; these photos are uploaded to Colab
 2. One at a time: resize the uploaded file(s) to a **max** size of **1024px wide by 768px** tall
 3. Add **copyright text** (hard coded) in top left and bottom right corners of the pic
-4. Create **sidecar file**: Extract **EXIF** metadata, if present, and save as a **JSON** file in the **output** directory using the same filename as the photo
-5. Save resized photo as .WEBP file (Note: .WEBP format cannot store EXIF metadata) in the **output** directory
-6. **ZIP** the files in the **output** directory (.WEBP and .JSON) and dowload the zip file to local machine
+4. Create **sidecar file**: Extract **EXIF** metadata, if present, and save as a **JSON** file in the **output** directory (**".\webp_resized"**) using the same filename as the photo
+5. Save resized photo as .WEBP file (Note: .WEBP format cannot store EXIF metadata) in the **output** directory (**".\webp_resized"**)
+6. **ZIP** the .WEBP and .JSON files in **".\webp_resized"** folder and dowload the zip file (**"webp_resized.zip"**) to local machine
 
-This is to prepare pics to be uploaded to [UntamedFrames.ca](https://untamedframes.ca)
+This is to prepare resized pics to be uploaded to [UntamedFrames.ca](https://untamedframes.ca)
 
 ### Run Option 1: Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PeterMosier/photo-resizer-notebook/blob/main/ImageResizer.ipynb)
