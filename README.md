@@ -1,4 +1,4 @@
-# Photo Resizer JupyterLab Notebook
+# Photo Resizer | JupyterLab Notebook | Python
 
 ⭐ Note: Github can render/display the Notebook, **but not run it**. Execution happens in Google Colab, and the code has been optimzed to run in Google Colab, decentralized, hence the requirement to upload photos and download results. Early version of this notebook ran on a local machine, and did not require upload/download. The newer versions can be run in the Google Colab cloud from anywhere.
 
